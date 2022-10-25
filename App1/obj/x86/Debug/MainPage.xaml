@@ -1,0 +1,85 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="AntiqueWhite" HorizontalAlignment="Stretch" >
+        <StackPanel Orientation="Vertical">
+            <TextBlock x:ConnectionId='20' Height="72"
+                Foreground="Black"
+                       Margin="15"
+                FontSize="50"
+                TextAlignment="center"
+                FontWeight="Bold" 
+        FontFamily="Arial" Text="Dodgy Brothers Motor Manager" TextWrapping="Wrap"                                               RenderTransformOrigin="0.581,0.521"/>
+            <TextBlock Text="Designed by: Weei Waai KHOR 001174793" TextAlignment="Center" FontSize="30" FontFamily="Arial" TextWrapping="Wrap"/>
+        </StackPanel>
+
+        <TextBlock x:ConnectionId='2' HorizontalAlignment="Left" Height="43" Margin="169,159,0,0"
+                   Foreground="Black"
+                   FontSize="22.5"
+                   TextAlignment="left"
+                   FontWeight="light" 
+           FontFamily="Arial" Text="Customer Name" TextWrapping="Wrap" VerticalAlignment="Top" Width="171"                                              />
+        <TextBlock x:ConnectionId='3' HorizontalAlignment="Left" Height="37" Margin="169,294,0,0"
+                   Foreground="Black"
+                   FontSize="22.5"
+                   TextAlignment="left"
+                   FontWeight="light" 
+           FontFamily="Arial" Text="Customer Phone" TextWrapping="Wrap" VerticalAlignment="Top" Width="187"                                              />
+        <TextBlock x:ConnectionId='4' HorizontalAlignment="Left" Height="38" Margin="169,226,0,0"
+                   Foreground="Black"
+                   FontSize="22.5"
+                   TextAlignment="left"
+                   FontWeight="light" 
+           FontFamily="Arial" Text="Vehicle Price" TextWrapping="Wrap" VerticalAlignment="Top" Width="155"                                               RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.258"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock x:ConnectionId='5' HorizontalAlignment="Left" Height="38" Margin="169,361,0,0"
+                   Foreground="Black"
+                   FontSize="22.5"
+                   TextAlignment="left"
+                   FontWeight="light" 
+           FontFamily="Arial" Text="Less Trade In " TextWrapping="Wrap" VerticalAlignment="Top" Width="191"                                              />
+        <TextBlock x:ConnectionId='6' HorizontalAlignment="Left" Height="38" Margin="169,428,0,0"
+                   Foreground="Black"
+                   FontSize="22.5"
+                   TextAlignment="left"
+                   FontWeight="light" 
+           FontFamily="Arial" Text="Sub Amount " TextWrapping="Wrap" VerticalAlignment="Top" Width="191"                                              />
+        <TextBlock x:ConnectionId='7' HorizontalAlignment="Left" Height="38" Margin="169,496,0,0"
+                   Foreground="Black"
+                   FontSize="22.5"
+                   TextAlignment="left"
+                   FontWeight="light" 
+           FontFamily="Arial" Text="GST Amount " TextWrapping="Wrap" VerticalAlignment="Top" Width="191"                                              />
+        <TextBlock x:ConnectionId='8' HorizontalAlignment="Left" Height="38" Margin="169,563,0,0"
+                   Foreground="Black"
+                   FontSize="22.5"
+                   TextAlignment="left"
+                   FontWeight="light" 
+           FontFamily="Arial" Text="Final Amount " TextWrapping="Wrap" VerticalAlignment="Top" Width="191"                                              />
+
+        <TextBox x:ConnectionId='9' x:Name="customerName" HorizontalAlignment="Left" Height="34" Margin="418,159,0,0" PlaceholderText="Required" TextAlignment="Center" FontSize="20" VerticalAlignment="Top" Width="322"/>
+        <TextBox x:ConnectionId='10' x:Name="vechicleCost" HorizontalAlignment="Left" Height="33" Margin="418,226,0,0" PlaceholderText="Required" TextAlignment="Center" FontSize="20" VerticalAlignment="Top" Width="322"                                       />
+        <TextBox x:ConnectionId='11' x:Name="hp" HorizontalAlignment="Left" Height="34"  Margin="418,294,0,0" PlaceholderText="Optional" TextAlignment="Center" FontSize="20" TextWrapping="Wrap" VerticalAlignment="Top" Width="322"/>
+        <TextBox x:ConnectionId='12' x:Name="tradein" HorizontalAlignment="Left" Height="34" Margin="418,361,0,0" PlaceholderText="Required" TextAlignment="Center" FontSize="20" TextWrapping="Wrap" VerticalAlignment="Top" Width="322"/>
+        <TextBlock x:ConnectionId='13' x:Name="finalAmountTotal" HorizontalAlignment="Left" Height="34" Margin="418,563,0,0" FontWeight="Bold" TextDecorations="Underline" Foreground="Red" Text="TextBlock" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Width="322" VerticalAlignment="Top"/>
+
+        <Image x:ConnectionId='14' x:Name="car" HorizontalAlignment="Left" Height="195" Margin="865,264,0,0" VerticalAlignment="Top" Width="358" Source="/Assets/car.png" />
+        <Button x:ConnectionId='15'                   Content="Calculate" Height="35" Background="Green" CornerRadius="5"  Margin="169,613,0,0" VerticalAlignment="Top" Width="571"/>
+        <Button x:ConnectionId='16'               Content="Reset" Height="35" Background="red" Margin="169,663,0,0" CornerRadius="10"  VerticalAlignment="Top" Width="275"/>
+        <Button x:ConnectionId='17'              Content="Save" Height="35" BorderBrush="blue" CornerRadius="10" Margin="465,663,0,0" VerticalAlignment="Top" Width="275"/>
+        <TextBlock x:ConnectionId='18' x:Name="gstAmountTotal" HorizontalAlignment="Left" Height="34" Margin="418,496,0,0" Foreground="Black" Text="TextBlock" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Width="322" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='19' x:Name="subAmountTotal" HorizontalAlignment="Left" Height="34" Margin="418,428,0,0"  Foreground="Black" Text="TextBlock" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Width="322" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
+

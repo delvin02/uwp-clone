@@ -1,0 +1,236 @@
+e - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\qualifiers.txt
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424473200000000.json
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\bin\x64\Debug\App.xbf
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\bin\x64\Debug\MainPage.xbf
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\bin\x64\Debug\App1.xr.xml
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\bin\x64\Debug\App1.exe
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\bin\x64\Debug\App1.pdb
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\bin\x64\Debug\System.Runtime.dll
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\App1.csproj.AssemblyReference.cache
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\App.g.i.cs
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\App.g.cs
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\MainPage.g.cs
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\App.xaml
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\MainPage.xaml
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\App.xbf
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\MainPage.xbf
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\App1.csproj.CoreCompileInputs.cache
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\App1.csproj.CopyComplete
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\App1.exe
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\App1.pdb
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\bin\x64\Debug\resources.pri
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\bin\x64\Debug\AppxManifest.xml
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\priconfig.xml
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\resources.resfiles
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\pri.resfiles
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\User Interface\uwp\App1\App1\obj\x64\Debug\qualifiers.txt
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\App1.csproj.AssemblyReference.cache
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\App.g.i.cs
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\App.g.cs
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\MainPage.g.cs
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\App.xaml
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\MainPage.xaml
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\App.xbf
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\MainPage.xbf
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\App1.csproj.CoreCompileInputs.cache
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\App1.exe
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\App1\App1\obj\x64\Debug\App1.pdb
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\App1.csproj.AssemblyReference.cache
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\App.g.i.cs
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\App.g.cs
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\MainPage.g.cs
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\App.xaml
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\MainPage.xaml
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\App.xbf
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\MainPage.xbf
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\App1.csproj.CoreCompileInputs.cache
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\bin\x64\Debug\App.xbf
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\bin\x64\Debug\MainPage.xbf
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\bin\x64\Debug\App1.xr.xml
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\bin\x64\Debug\App1.exe
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\bin\x64\Debug\App1.pdb
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\bin\x64\Debug\resources.pri
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\bin\x64\Debug\AppxManifest.xml
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\bin\x64\Debug\Core\App1.exe
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\bin\x64\Debug\App1.build.appxrecipe
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\bin\x64\Debug\System.Runtime.dll
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\App1.csproj.CopyComplete
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\App1.exe
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\App1.pdb
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\priconfig.xml
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\resources.resfiles
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\pri.resfiles
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\qualifiers.txt
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\001174793\OneDrive - TAFE SA\Desktop\Assessment 2\App1\App1\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\bin\x64\Debug\App.xbf
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\bin\x64\Debug\MainPage.xbf
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\bin\x64\Debug\App1.xr.xml
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\bin\x64\Debug\App1.exe
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\bin\x64\Debug\App1.pdb
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\bin\x64\Debug\resources.pri
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\bin\x64\Debug\AppxManifest.xml
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\bin\x64\Debug\Core\App1.exe
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\bin\x64\Debug\App1.build.appxrecipe
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\bin\x64\Debug\System.Runtime.dll
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\App1.csproj.AssemblyReference.cache
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\App.g.i.cs
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\App.g.cs
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\MainPage.g.cs
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\App.xaml
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\MainPage.xaml
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\App.xbf
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\MainPage.xbf
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\App1.csproj.CoreCompileInputs.cache
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\App1.csproj.CopyComplete
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\App1.exe
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\App1.pdb
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\priconfig.xml
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\resources.resfiles
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\pri.resfiles
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\qualifiers.txt
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\001174793\Downloads\WEEIWAAIKHOR\Assessment 3\App1\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424437200000000.json
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\App1.csproj.AssemblyReference.cache
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\App.g.i.cs
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\App.g.cs
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\MainPage.g.cs
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\App.xaml
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\MainPage.xaml
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\App.xbf
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\MainPage.xbf
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\App1.exe
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\App1.pdb
+C:\Users\001174793\Downloads\Assessment 3\App1\bin\x64\Debug\App.xbf
+C:\Users\001174793\Downloads\Assessment 3\App1\bin\x64\Debug\MainPage.xbf
+C:\Users\001174793\Downloads\Assessment 3\App1\bin\x64\Debug\App1.xr.xml
+C:\Users\001174793\Downloads\Assessment 3\App1\bin\x64\Debug\App1.exe
+C:\Users\001174793\Downloads\Assessment 3\App1\bin\x64\Debug\App1.pdb
+C:\Users\001174793\Downloads\Assessment 3\App1\bin\x64\Debug\resources.pri
+C:\Users\001174793\Downloads\Assessment 3\App1\bin\x64\Debug\AppxManifest.xml
+C:\Users\001174793\Downloads\Assessment 3\App1\bin\x64\Debug\System.Runtime.dll
+C:\Users\001174793\Downloads\Assessment 3\App1\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\App1.csproj.CoreCompileInputs.cache
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\App1.csproj.CopyComplete
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\priconfig.xml
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\resources.resfiles
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\pri.resfiles
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\qualifiers.txt
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\001174793\Downloads\Assessment 3\App1\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424437200000000.json
+C:\Users\001174793\Downloads\Assessment 3\App1\bin\x64\Debug\Core\App1.exe
+C:\Users\001174793\Downloads\Assessment 3\App1\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\001174793\Downloads\Assessment 3\App1\bin\x64\Debug\App1.build.appxrecipe
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\bin\x64\Debug\App.xbf
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\bin\x64\Debug\MainPage.xbf
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\bin\x64\Debug\App1.xr.xml
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\bin\x64\Debug\App1.exe
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\bin\x64\Debug\App1.pdb
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\bin\x64\Debug\resources.pri
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\bin\x64\Debug\AppxManifest.xml
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\bin\x64\Debug\Core\App1.exe
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\bin\x64\Debug\App1.build.appxrecipe
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\bin\x64\Debug\System.Runtime.dll
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\App1.csproj.AssemblyReference.cache
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\App.g.i.cs
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\App.g.cs
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\MainPage.g.cs
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\App.xaml
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\MainPage.xaml
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\App.xbf
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\MainPage.xbf
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\App1.csproj.CoreCompileInputs.cache
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\App1.csproj.CopyComplete
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\App1.exe
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\App1.pdb
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\priconfig.xml
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\resources.resfiles
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\pri.resfiles
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\qualifiers.txt
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp\uwp-clone-main\App1\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424437200000000.json
