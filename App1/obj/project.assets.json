@@ -10262,11 +10262,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp\\uwp-clone-main\\App1\\App1.csproj",
+      "projectUniqueName": "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp-clone\\App1\\App1.csproj",
       "projectName": "App1",
-      "projectPath": "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp\\uwp-clone-main\\App1\\App1.csproj",
+      "projectPath": "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp-clone\\App1\\App1.csproj",
       "packagesPath": "C:\\Users\\DelvinWaai(Interfy)\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp\\uwp-clone-main\\App1\\obj\\",
+      "outputPath": "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp-clone\\App1\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

@@ -130,7 +130,7 @@
 
                 <TextBox x:ConnectionId='3' x:Name="customerName" HorizontalAlignment="Left" Height="auto" Grid.Column="1" Grid.Row="1" PlaceholderText="Required" TextAlignment="Center" FontSize="15" VerticalAlignment="Top" Width="427" />
                 <TextBox x:ConnectionId='4' x:Name="vechicleCost" HorizontalAlignment="Left" Height="auto" Grid.Column="1" Grid.Row="3"  PlaceholderText="Required" TextAlignment="Center" FontSize="15" VerticalAlignment="Top" Width="427"  />
-                <TextBox x:ConnectionId='5' x:Name="hp" HorizontalAlignment="Left"  Height="auto"  Grid.Column="1" Grid.Row="2"  PlaceholderText="Required" TextAlignment="Center" FontSize="15" TextWrapping="Wrap" VerticalAlignment="Top" Width="427"  />
+                <TextBox x:ConnectionId='5' x:Name="handphoneNumber" HorizontalAlignment="Left"  Height="auto"  Grid.Column="1" Grid.Row="2"  PlaceholderText="Required" TextAlignment="Center" FontSize="15" TextWrapping="Wrap" VerticalAlignment="Top" Width="427"  />
                 <TextBox x:ConnectionId='6' x:Name="tradein" HorizontalAlignment="Left" Height="auto" Grid.Column="1" Grid.Row="4"  PlaceholderText="Optional" TextAlignment="Center" FontSize="15" TextWrapping="Wrap" VerticalAlignment="Top" Width="427" />
                 <ComboBox x:ConnectionId='7' x:Name="insurance" Grid.Column="1" Grid.Row="5" Height="auto" Width="427" FontSize="15">
                     <ComboBoxItem IsSelected="True">1 year warranty has no charge</ComboBoxItem>

@@ -66,19 +66,19 @@ namespace App1
             }
 
             // Check if phone number is empty
-            isEmptyHp = string.IsNullOrEmpty(hp.Text);
+            isEmptyHp = string.IsNullOrEmpty(handphoneNumber.Text);
 
             // Display Empty/Null Error
             if (isEmptyHp)
             {
                 var error_hp = new MessageDialog("Phone Number must be filled.");
                 await error_hp.ShowAsync();
-                hp.Focus(FocusState.Programmatic);
-                hp.SelectAll();
+                handphoneNumber.Focus(FocusState.Programmatic);
+                handphoneNumber.SelectAll();
                 return;
             }
             // Assign HP into phoneNumber
-            phoneNumber = hp.Text;
+            phoneNumber = handphoneNumber.Text;
 
             // Check name input contains Letter
             isHp = phoneNumber.All(char.IsLetter);
@@ -88,8 +88,8 @@ namespace App1
             {
                 var error_hp = new MessageDialog("Phone Number mustn't contains any letter.");
                 await error_hp.ShowAsync();
-                hp.Focus(FocusState.Programmatic);
-                hp.SelectAll();
+                handphoneNumber.Focus(FocusState.Programmatic);
+                handphoneNumber.SelectAll();
                 return;
             }
 
@@ -143,6 +143,28 @@ namespace App1
                     tradein.SelectAll();
                     return;
                 }
+            }
+
+            // Car Insurance
+            double insuranceRate;
+            int selectedIndex;
+
+            selectedIndex = insurance.SelectedIndex;
+
+            // Check Index to assign insurance rate
+            if (selectedIndex == 1)
+            {
+                insuranceRate = 1.05;
+            } else if (selectedIndex == 2)
+            {
+                insuranceRate = 1.10;
+            } else if (selectedIndex == 3)
+            {
+                insuranceRate = 1.2;
+            }
+            else
+            {
+                insuranceRate = 1;
             }
 
             // Prompt error message when carCost < 0
@@ -226,7 +248,7 @@ namespace App1
             // Clear every input box
             customerName.Text = "";
             vechicleCost.Text = "";
-            hp.Text = "";
+            handphoneNumber.Text = "";
             tradein.Text = "";
             subAmountTotal.Text = "";
             gstAmountTotal.Text = "";
@@ -234,7 +256,7 @@ namespace App1
 
             // If save button is being clicked 
             customerName.IsEnabled = true;
-            hp.IsEnabled = true;
+            handphoneNumber.IsEnabled = true;
 
             // Focus on customer name - ready for a new customer
             customerName.Focus(FocusState.Programmatic);
@@ -246,7 +268,7 @@ namespace App1
             // Validate Name and HP number
             bool name, phone;
             name = string.IsNullOrEmpty(customerName.Text);
-            phone = string.IsNullOrEmpty(hp.Text);
+            phone = string.IsNullOrEmpty(handphoneNumber.Text);
             if (name)
             {
                 var error_name = new MessageDialog("Name cannot be blank." );
@@ -259,13 +281,13 @@ namespace App1
             {
                 var error_name = new MessageDialog("Phone Number cannot be blank.");
                 await error_name.ShowAsync();
-                hp.Focus(FocusState.Programmatic);
-                hp.SelectAll();
+                handphoneNumber.Focus(FocusState.Programmatic);
+                handphoneNumber.SelectAll();
                 return;
             }
 
             customerName.IsEnabled = false;
-            hp.IsEnabled = false;
+            handphoneNumber.IsEnabled = false;
             vechicleCost.Focus(FocusState.Programmatic);
         }
 
