@@ -290,10 +290,5 @@ namespace App1
             handphoneNumber.IsEnabled = false;
             vechicleCost.Focus(FocusState.Programmatic);
         }
-
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
     }
 }
