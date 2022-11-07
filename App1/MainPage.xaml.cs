@@ -34,6 +34,7 @@ namespace App1
         private async void calculate(object sender, RoutedEventArgs e)
         {
 
+
             // Name and Phone Number
             bool isName, isHp, isEmptyName, isEmptyHp;
             string name, phoneNumber;
@@ -145,27 +146,6 @@ namespace App1
                 }
             }
 
-            // Car Insurance
-            double insuranceRate;
-            int selectedIndex;
-
-            selectedIndex = insurance.SelectedIndex;
-
-            // Check Index to assign insurance rate
-            if (selectedIndex == 1)
-            {
-                insuranceRate = 1.05;
-            } else if (selectedIndex == 2)
-            {
-                insuranceRate = 1.10;
-            } else if (selectedIndex == 3)
-            {
-                insuranceRate = 1.2;
-            }
-            else
-            {
-                insuranceRate = 1;
-            }
 
             // Prompt error message when carCost < 0
             if (carCost < 0)
@@ -205,6 +185,9 @@ namespace App1
                 return;
             }
 
+            // Car Warranty
+            double warrantyAmount = calcVehicleWarranty(carCost);
+
             // Calculate Sub amount
             subAmount = carCost - tradeCost;
             subAmountTotal.Text = subAmount.ToString();
@@ -215,33 +198,113 @@ namespace App1
             gstAmountTotal.Text = gst.ToString();
 
             // Add-ons 
-            int extraCost = 0;
-            if (window.IsChecked == true)
-            {
-                extraCost = extraCost + 150;
-            }
-            if (duco.IsChecked == true)
-            {
-                extraCost = extraCost + 180;
-            }
-            if (floor.IsChecked == true)
-            {
-                extraCost = extraCost + 320;
-            }
-            if (sound.IsChecked == true)
-            {
-                extraCost = extraCost + 350;
-            }
+            double extraCost = calcOptionalExtras();
 
-           
+            // Car Insurance
+            double insuranceAmount = calcAccidentInsurance(carCost, extraCost);
 
             // Final Amount
             double final;
-            final = gst + subAmount + extraCost;
+            final = gst + subAmount + extraCost + warrantyAmount + insuranceAmount;
             
             // Display final result
             finalAmountTotal.Text = final.ToString();
             
+        }
+        // Warranty 
+
+        private double calcVehicleWarranty(double vehiclePrice)
+        {
+            double warrantyRate;
+            int selectedIndex;
+
+            selectedIndex = warranty.SelectedIndex;
+
+            // Check Index to assign insurance rate
+            if (selectedIndex == 1)
+            {
+                warrantyRate = 0.05;
+            }
+            else if (selectedIndex == 2)
+            {
+                warrantyRate = 0.10;
+            }
+            else if (selectedIndex == 3)
+            {
+                warrantyRate = 0.2;
+            }
+            else
+            {
+                warrantyRate = 0;
+            }
+            return vehiclePrice * warrantyRate;
+        }
+        // Addons
+        private double calcOptionalExtras()
+        {
+            double extraCost = 0.0;
+            if (window.IsChecked == true)
+            {
+                extraCost = extraCost + 150.0;
+            }
+            if (duco.IsChecked == true)
+            {
+                extraCost = extraCost + 180.0;
+            }
+            if (floor.IsChecked == true)
+            {
+                extraCost = extraCost + 320.0;
+            }
+            if (sound.IsChecked == true)
+            {
+                extraCost = extraCost + 350.0;
+            }
+            return extraCost;
+        }
+
+        // Toggle Insurance Switch
+        private void InsuranceSwitch_Toggled(object sender, RoutedEventArgs e)
+        {
+            ToggleSwitch toggleSwitch = sender as ToggleSwitch;
+            if (toggleSwitch != null)
+            {
+                if (toggleSwitch.IsOn == true)
+                {
+                    insuranceButton1.Visibility = Visibility.Visible;
+                    insuranceButton2.Visibility = Visibility.Visible;
+                }
+                else
+                {
+                    insuranceButton1.Visibility = Visibility.Collapsed;
+                    insuranceButton2.Visibility = Visibility.Collapsed;
+                }
+            }
+        }
+
+        // Calculate Insurance
+        private double calcAccidentInsurance(double vehiclePrice, double optionalExtras)
+        {
+            double total;
+            if (insuranceToggle.IsOn == true)
+            {
+                if (insuranceButton1.IsChecked == true)
+                {
+                    total = (vehiclePrice + optionalExtras) * 0.2;
+                }
+                else if (insuranceButton2.IsChecked == true)
+                {
+                    total = (vehiclePrice + optionalExtras) * 0.1;
+                }
+                else
+                {
+                    total = 0;
+                }
+            }
+            else
+            {
+                total = 0;
+            }
+            return total;
         }
         private void reset(object sender, RoutedEventArgs e)
         {
@@ -257,6 +320,18 @@ namespace App1
             // If save button is being clicked 
             customerName.IsEnabled = true;
             handphoneNumber.IsEnabled = true;
+
+            // Optional Extras
+            window.IsChecked = false;
+            duco.IsChecked = false;
+            floor.IsChecked = false;
+            sound.IsChecked = false;
+
+            // Warranty
+            warranty.SelectedIndex = 0;
+
+            // Switch
+            insuranceToggle.IsOn = false;
 
             // Focus on customer name - ready for a new customer
             customerName.Focus(FocusState.Programmatic);
