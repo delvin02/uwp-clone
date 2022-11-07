@@ -221,21 +221,19 @@ namespace App1
             selectedIndex = warranty.SelectedIndex;
 
             // Check Index to assign insurance rate
-            if (selectedIndex == 1)
+            switch (selectedIndex)
             {
-                warrantyRate = 0.05;
-            }
-            else if (selectedIndex == 2)
-            {
-                warrantyRate = 0.10;
-            }
-            else if (selectedIndex == 3)
-            {
-                warrantyRate = 0.2;
-            }
-            else
-            {
-                warrantyRate = 0;
+                case 1:
+                    warrantyRate = 0.05;
+                    break;
+                case 2:
+                    warrantyRate = 0.10;
+                    break;
+                case 3:
+                    warrantyRate = 0.2;
+                    break;
+                default:
+                    return 0;
             }
             return vehiclePrice * warrantyRate;
         }
@@ -289,20 +287,20 @@ namespace App1
             {
                 if (insuranceButton1.IsChecked == true)
                 {
-                    total = (vehiclePrice + optionalExtras) * 0.2;
+                    total = (vehiclePrice * 0.2) + optionalExtras;
                 }
                 else if (insuranceButton2.IsChecked == true)
                 {
-                    total = (vehiclePrice + optionalExtras) * 0.1;
+                    total = (vehiclePrice * 0.1 ) +optionalExtras;
                 }
                 else
                 {
-                    total = 0;
+                    return 0;
                 }
             }
             else
             {
-                total = 0;
+                return 0;
             }
             return total;
         }

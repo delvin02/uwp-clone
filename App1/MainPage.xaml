@@ -135,8 +135,8 @@
                 <ComboBox x:Name="warranty" Grid.Column="1" Grid.Row="5" Height="auto" Width="427" FontSize="15">
                     <ComboBoxItem IsSelected="True">1 year warranty has no charge</ComboBoxItem>
                     <ComboBoxItem>2 years at 5% of the vechicle cost</ComboBoxItem>
-                    <ComboBoxItem>5 years at 10% of the vechicle cost</ComboBoxItem>
-                    <ComboBoxItem>10 years at 20% of the vechicle cost</ComboBoxItem>
+                    <ComboBoxItem>3 years at 10% of the vechicle cost</ComboBoxItem>
+                    <ComboBoxItem>5 years at 20% of the vechicle cost</ComboBoxItem>
                 </ComboBox>
                 <StackPanel Grid.Column="1" Grid.Row="6" Spacing="5" Orientation="Horizontal">
                     <CheckBox x:Name="window" Content="Window Tinting ($150)" FontSize="8"  VerticalAlignment="Center"/>
