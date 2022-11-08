@@ -324,3 +324,4 @@ C:\Users\001174793\Downloads\uwp-clone\App1\obj\x64\Debug\qualifiers.txt.interme
 C:\Users\001174793\Downloads\uwp-clone\App1\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\001174793\Downloads\uwp-clone\App1\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\001174793\Downloads\uwp-clone\App1\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424473200000000.json
+C:\Users\001174793\Downloads\uwp-clone\App1\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424437200000000.json

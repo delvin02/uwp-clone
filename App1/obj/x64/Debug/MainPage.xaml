@@ -154,8 +154,8 @@
                         <RowDefinition Height="50*" />
                     </Grid.RowDefinitions>
                     <ToggleSwitch x:ConnectionId='14' x:Name="insuranceToggle" Width="auto" Grid.Row="0" HorizontalAlignment="Center" Height="30"                                  />
-                    <RadioButton x:ConnectionId='15' Name="insuranceButton1" Visibility="Collapsed" FontSize="9" Grid.Column="1" Grid.Row="0" Content="drivers under age 25 may purchase 1 year insurance for 20% of vehicle price" Height="30" />
-                    <RadioButton x:ConnectionId='16' Name="insuranceButton2" Visibility="Collapsed" FontSize="9" Grid.Column="1" Grid.Row="1" Content="older drivers (&gt;=25) may purchase for 10% of vehicle price" Height="30" />
+                    <RadioButton x:ConnectionId='15' x:Name="AgeUnder" IsChecked="True" Visibility="Collapsed" FontSize="9" Grid.Column="1" Grid.Row="0" Content="drivers under age 25 may purchase 1 year insurance for 20% of vehicle price" Height="30" />
+                    <RadioButton x:ConnectionId='16' x:Name="AgeAbove" Visibility="Collapsed" FontSize="9" Grid.Column="1" Grid.Row="1" Content="older drivers (&gt;=25) may purchase for 10% of vehicle price" Height="30" />
                 </Grid>
                 <DatePicker Grid.Column="1" Grid.Row="8"></DatePicker>
                 <TimePicker Grid.Column="1" Grid.Row="9"/>

@@ -188,24 +188,24 @@ namespace App1
             // Car Warranty
             double warrantyAmount = calcVehicleWarranty(carCost);
 
-            // Calculate Sub amount
-            subAmount = carCost - tradeCost;
-            subAmountTotal.Text = subAmount.ToString();
-
-            // Total GST
-            int gst;
-            gst = (int)Math.Round(float.Parse(vechicleCost.Text) * 0.1);
-            gstAmountTotal.Text = gst.ToString();
-
             // Add-ons 
             double extraCost = calcOptionalExtras();
 
             // Car Insurance
             double insuranceAmount = calcAccidentInsurance(carCost, extraCost);
 
+            // Calculate Sub amount
+            subAmount = carCost + warrantyAmount + extraCost + insuranceAmount - tradeCost;
+            subAmountTotal.Text = subAmount.ToString();
+
+            // Total GST
+            double gst;
+            gst = subAmount * 0.1;
+            gstAmountTotal.Text = gst.ToString();
+
             // Final Amount
             double final;
-            final = gst + subAmount + extraCost + warrantyAmount + insuranceAmount;
+            final = subAmount + gst;
             
             // Display final result
             finalAmountTotal.Text = final.ToString();
@@ -215,6 +215,10 @@ namespace App1
 
         private double calcVehicleWarranty(double vehiclePrice)
         {
+            const double WARRANTY1 = 0.05;
+            const double WARRANTY2 = 0.10;
+            const double WARRANTY3 = 0.20;
+
             double warrantyRate;
             int selectedIndex;
 
@@ -224,13 +228,13 @@ namespace App1
             switch (selectedIndex)
             {
                 case 1:
-                    warrantyRate = 0.05;
+                    warrantyRate = WARRANTY1;
                     break;
                 case 2:
-                    warrantyRate = 0.10;
+                    warrantyRate = WARRANTY2;
                     break;
                 case 3:
-                    warrantyRate = 0.2;
+                    warrantyRate = WARRANTY3;
                     break;
                 default:
                     return 0;
@@ -241,18 +245,22 @@ namespace App1
         private double calcOptionalExtras()
         {
             double extraCost = 0.0;
+            // check window
             if (window.IsChecked == true)
             {
                 extraCost = extraCost + 150.0;
             }
+            // check duco
             if (duco.IsChecked == true)
             {
                 extraCost = extraCost + 180.0;
             }
+            // check floor
             if (floor.IsChecked == true)
             {
                 extraCost = extraCost + 320.0;
             }
+            // check sound
             if (sound.IsChecked == true)
             {
                 extraCost = extraCost + 350.0;
@@ -264,34 +272,52 @@ namespace App1
         private void InsuranceSwitch_Toggled(object sender, RoutedEventArgs e)
         {
             ToggleSwitch toggleSwitch = sender as ToggleSwitch;
+            
+
+            // Toggle Radio Button
             if (toggleSwitch != null)
             {
                 if (toggleSwitch.IsOn == true)
                 {
-                    insuranceButton1.Visibility = Visibility.Visible;
-                    insuranceButton2.Visibility = Visibility.Visible;
+                    // Make visible
+                    AgeUnder.Visibility = Visibility.Visible;
+                    AgeAbove.Visibility = Visibility.Visible;
                 }
                 else
                 {
-                    insuranceButton1.Visibility = Visibility.Collapsed;
-                    insuranceButton2.Visibility = Visibility.Collapsed;
+                    // Make invisible
+                    AgeUnder.Visibility = Visibility.Collapsed;
+                    AgeAbove.Visibility = Visibility.Collapsed;
                 }
             }
         }
-
+        /// <summary>
+        ///     double rate
+        ///     Identify which button is checked
+        ///         rate = 0.2
+        /// </summary>
+        /// <param name="vehiclePrice"></param>
+        /// <param name="optionalExtras"></param>
+        /// <returns> (vehicleprice * rate) + optionalExtras</returns>
+        
         // Calculate Insurance
         private double calcAccidentInsurance(double vehiclePrice, double optionalExtras)
         {
+            const double INSURANCE_RATE_BELOW = 0.2;
+            const double INSURANCE_RATE_ABOVE = 0.1;
+
             double total;
+            // Check Toggle is On
             if (insuranceToggle.IsOn == true)
             {
-                if (insuranceButton1.IsChecked == true)
+                // Check either button is checked
+                if (AgeUnder.IsChecked == true)
                 {
-                    total = (vehiclePrice * 0.2) + optionalExtras;
+                    total = (vehiclePrice + optionalExtras) * INSURANCE_RATE_BELOW;
                 }
-                else if (insuranceButton2.IsChecked == true)
+                else if (AgeAbove.IsChecked == true)
                 {
-                    total = (vehiclePrice * 0.1 ) +optionalExtras;
+                    total = (vehiclePrice + optionalExtras) * INSURANCE_RATE_ABOVE;
                 }
                 else
                 {

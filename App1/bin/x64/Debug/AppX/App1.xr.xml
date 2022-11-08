@@ -94,7 +94,7 @@
       <RootEvent Name="Toggled" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
-      <RootProperty Name="Name" />
+      <RootProperty Name="IsChecked" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Content" />
