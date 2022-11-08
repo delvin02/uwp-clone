@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Xml.Linq;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Popups;
@@ -196,21 +197,40 @@ namespace App1
 
             // Calculate Sub amount
             subAmount = carCost + warrantyAmount + extraCost + insuranceAmount - tradeCost;
-            subAmountTotal.Text = subAmount.ToString();
+            subAmountTotal.Text = "$ " +  subAmount.ToString();
 
             // Total GST
             double gst;
             gst = subAmount * 0.1;
-            gstAmountTotal.Text = gst.ToString();
+            gstAmountTotal.Text = "$ " + gst.ToString();
 
             // Final Amount
             double final;
             final = subAmount + gst;
             
             // Display final result
-            finalAmountTotal.Text = final.ToString();
-            
+            finalAmountTotal.Text = "$ " + final.ToString();
+
+
+            // Display in Summary Data Block
+            customerNameBlock.Text = "Customer Name: " + name.ToString();
+            phoneNumberBlock.Text = "Phone Number: " + phoneNumber.ToString();
+            vehicleCostBlock.Text = "Vehicle Cost: $" + carCost.ToString();
+            tradeInBlock.Text = "Trade In: $" + tradeCost.ToString();
+            warrantyCostBlock.Text = "Warranty Cost: $" + warrantyAmount.ToString();
+            extraCostBlock.Text = "Extra Cost: $" + extraCost.ToString();
+            insuranceCostBlock.Text = "Insurance Cost: $" + insuranceAmount.ToString();
+            finalAmountBlock.Text = "Final Amount: $" + final.ToString();
+
+
         }
+        
+        /// <summary>
+        /// Calculate Vehicle Warranty
+        /// </summary>
+        /// <param name="vehiclePrice"></param>
+        /// <returns>warraty rate * vehiclePrice</returns>
+        
         // Warranty 
 
         private double calcVehicleWarranty(double vehiclePrice)
@@ -237,10 +257,16 @@ namespace App1
                     warrantyRate = WARRANTY3;
                     break;
                 default:
-                    return 0;
+                    return 0; 
             }
             return vehiclePrice * warrantyRate;
         }
+
+        /// <summary>
+        /// Extras Addons Amount
+        /// </summary>
+        /// <returns>extraCost</returns>
+        /// 
         // Addons
         private double calcOptionalExtras()
         {
@@ -351,11 +377,15 @@ namespace App1
             floor.IsChecked = false;
             sound.IsChecked = false;
 
-            // Warranty
-            warranty.SelectedIndex = 0;
-
-            // Switch
-            insuranceToggle.IsOn = false;
+            // Reset Display Data
+            customerNameBlock.Text = "Customer Name";
+            phoneNumberBlock.Text = "Phone Number";
+            vehicleCostBlock.Text = "Vehicle Cost";
+            tradeInBlock.Text = "Trade In";
+            warrantyCostBlock.Text = "Warranty Cost";
+            extraCostBlock.Text = "Optional Extras Cost";
+            insuranceCostBlock.Text = "Insurance Cost";
+            finalAmountBlock.Text = "Final Amount";
 
             // Focus on customer name - ready for a new customer
             customerName.Focus(FocusState.Programmatic);

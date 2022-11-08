@@ -183,7 +183,28 @@
                 </Grid.RowDefinitions>
                 <Image x:Name="car" Height="195" Width="290" Grid.Row="0" Source="/Assets/car.png" />
                 <Border Grid.Row="1" Height="400px" Background="White">
-                    <TextBlock Text="Summary Data display here" TextAlignment="Center" VerticalAlignment="Center"/>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="3*"/>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="2*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Text="Summary Data display here" FontSize="20px" TextAlignment="Center"/>
+                        <TextBlock x:Name="customerNameBlock" Grid.Row="1" Text="Customer Name" FontSize="15px" TextAlignment="Center"/>
+                        <TextBlock x:Name="phoneNumberBlock" Grid.Row="2" Text="Phone" FontSize="15px" TextAlignment="Center"/>
+                        <TextBlock x:Name="vehicleCostBlock" Grid.Row="3" Text="Vehicle Cost" FontSize="15px" TextAlignment="Center"/>
+                        <TextBlock x:Name="tradeInBlock" Grid.Row="4" Text="Trade-in Amount" FontSize="15px" TextAlignment="Center"/>
+                        <TextBlock x:Name="warrantyCostBlock" Grid.Row="5" Text="Warranty Cost" FontSize="15px" TextAlignment="Center"/>
+                        <TextBlock x:Name="extraCostBlock" Grid.Row="6" Text="Optional Extras Cost" FontSize="15px" TextAlignment="Center"/>
+                        <TextBlock x:Name="insuranceCostBlock" Grid.Row="7" Text="Insurance Cost" FontSize="15px" TextAlignment="Center"/>
+                        <TextBlock x:Name="finalAmountBlock" Grid.Row="8" Text="Final Amount" FontSize="15px" TextAlignment="Center"/>
+                    </Grid>
                 </Border>
                 <TextBlock Text="Designed By: Weei Waai Khor 001174793" Grid.Row="2" TextAlignment="Center" TextWrapping="Wrap" FontSize="16"/>
             </Grid>
