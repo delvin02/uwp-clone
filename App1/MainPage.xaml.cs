@@ -34,7 +34,7 @@ namespace App1
         //CarSalesV1
         private async void calculate(object sender, RoutedEventArgs e)
         {
-
+            const double GST_RATE = 0.1;
 
             // Name and Phone Number
             bool isName, isHp, isEmptyName, isEmptyHp;
@@ -201,7 +201,7 @@ namespace App1
 
             // Total GST
             double gst;
-            gst = subAmount * 0.1;
+            gst = subAmount * GST_RATE;
             gstAmountTotal.Text = "$ " + gst.ToString();
 
             // Final Amount
@@ -271,25 +271,30 @@ namespace App1
         private double calcOptionalExtras()
         {
             double extraCost = 0.0;
+
+            const double WINDOW_PRICE = 150.0;
+            const double DUCO_PRICE = 180.0;
+            const double FLOOR_PRICE = 320.0;
+            const double SOUND_PRICE = 350.0;
             // check window
             if (window.IsChecked == true)
             {
-                extraCost = extraCost + 150.0;
+                extraCost = extraCost + WINDOW_PRICE;
             }
             // check duco
             if (duco.IsChecked == true)
             {
-                extraCost = extraCost + 180.0;
+                extraCost = extraCost + DUCO_PRICE;
             }
             // check floor
             if (floor.IsChecked == true)
             {
-                extraCost = extraCost + 320.0;
+                extraCost = extraCost + FLOOR_PRICE;
             }
             // check sound
             if (sound.IsChecked == true)
             {
-                extraCost = extraCost + 350.0;
+                extraCost = extraCost + SOUND_PRICE;
             }
             return extraCost;
         }
@@ -376,6 +381,12 @@ namespace App1
             duco.IsChecked = false;
             floor.IsChecked = false;
             sound.IsChecked = false;
+
+            // Warranty
+            warranty.SelectedIndex = 0;
+
+            // Insurance Toggle
+            insuranceToggle.IsOn = false;
 
             // Reset Display Data
             customerNameBlock.Text = "Customer Name";
