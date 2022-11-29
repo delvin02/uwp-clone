@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\001174793.TAFESA\\Downloads\\uwp-clone\\App1\\App1.csproj": {}
+    "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp-clone\\App1\\App1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\001174793.TAFESA\\Downloads\\uwp-clone\\App1\\App1.csproj": {
+    "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp-clone\\App1\\App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\001174793.TAFESA\\Downloads\\uwp-clone\\App1\\App1.csproj",
+        "projectUniqueName": "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp-clone\\App1\\App1.csproj",
         "projectName": "App1",
-        "projectPath": "C:\\Users\\001174793.TAFESA\\Downloads\\uwp-clone\\App1\\App1.csproj",
-        "packagesPath": "C:\\Users\\001174793.TAFESA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\001174793.TAFESA\\Downloads\\uwp-clone\\App1\\obj\\",
+        "projectPath": "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp-clone\\App1\\App1.csproj",
+        "packagesPath": "C:\\Users\\DelvinWaai(Interfy)\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp-clone\\App1\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\001174793.TAFESA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DelvinWaai(Interfy)\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

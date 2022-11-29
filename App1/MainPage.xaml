@@ -20,7 +20,8 @@
         </StackPanel>
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="8*" />
+                <ColumnDefinition Width="9*" />
+                <ColumnDefinition Width="3*" />
                 <ColumnDefinition Width="3*" />
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
@@ -28,8 +29,9 @@
             </Grid.RowDefinitions>
             <Grid Grid.Column="0" Grid.Row="0" RenderTransformOrigin="0.471,0.5">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="50*"/>
-                    <ColumnDefinition Width="60*"/>
+                    <ColumnDefinition Width="175*"/>
+                    <ColumnDefinition Width="150*"/>
+                    <ColumnDefinition Width="600*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="100" />
@@ -53,21 +55,21 @@
                 <TextBlock HorizontalAlignment="Left" Grid.Column="0" Grid.Row="1" 
                    Foreground="Black"
                    FontSize="20"
-                   TextAlignment="left"
+                   TextAlignment="Left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Customer Name" TextWrapping="Wrap" VerticalAlignment="Center" Margin="120 0" Width="188"/>
+           FontFamily="Arial" Text="Customer Name" TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
                 <TextBlock HorizontalAlignment="Left" Grid.Column="0" Grid.Row="2"
                    Foreground="Black"
                    FontSize="20"
-                   TextAlignment="left"
+                   TextAlignment="Left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Customer Phone" TextWrapping="Wrap" VerticalAlignment="Center" Margin="120 0" />
+           FontFamily="Arial" Text="Customer Phone" TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
                 <TextBlock HorizontalAlignment="Left" Grid.Column="0" Grid.Row="3"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Vehicle Price" TextWrapping="Wrap" VerticalAlignment="Center" Margin="120 0"  RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+           FontFamily="Arial" Text="Vehicle Price" TextWrapping="Wrap" Width="200" VerticalAlignment="Center"  RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.ColumnSpan="2" Margin="107,0,0,0">
                     <TextBlock.RenderTransform>
                         <CompositeTransform Rotation="0.258"/>
                     </TextBlock.RenderTransform>
@@ -77,74 +79,74 @@
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Vehicle Warranty " TextWrapping="Wrap" VerticalAlignment="Center" Margin="120 0"/>
+           FontFamily="Arial" Text="Vehicle Warranty " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
                 <TextBlock HorizontalAlignment="Left"  Grid.Column="0" Grid.Row="6"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Optional Extras " TextWrapping="Wrap" VerticalAlignment="Center" Margin="120 0"/>
+           FontFamily="Arial" Text="Optional Extras " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
                 <TextBlock HorizontalAlignment="Left"  Grid.Column="0" Grid.Row="7"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Insurance Policy " TextWrapping="Wrap" VerticalAlignment="Center" Margin="120 0"/>
+           FontFamily="Arial" Text="Insurance Policy " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
                 <TextBlock HorizontalAlignment="Left"  Grid.Column="0" Grid.Row="8"
                    Foreground="Black"
                    FontSize="20"
-                   TextAlignment="left"
+                   TextAlignment="Left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Collection Date " TextWrapping="Wrap" VerticalAlignment="Center" Margin="120 0"/>
+           FontFamily="Arial" Text="Collection Date " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
                 <TextBlock HorizontalAlignment="Left"  Grid.Column="0" Grid.Row="9"
                    Foreground="Black"
                    FontSize="20"
-                   TextAlignment="left"
+                   TextAlignment="Left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Pickup Time " TextWrapping="Wrap" VerticalAlignment="Center" Margin="120 0"/>
+           FontFamily="Arial" Text="Pickup Time " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
                 <TextBlock HorizontalAlignment="Left" Grid.Column="0" Grid.Row="4"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Less Trade In " TextWrapping="Wrap" VerticalAlignment="Center" Margin="120 0" />
+           FontFamily="Arial" Text="Less Trade In " TextWrapping="Wrap" Width="200" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="107,0,0,0" />
                 <TextBlock HorizontalAlignment="Left" Grid.Column="0" Grid.Row="10"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Sub Amount " TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="120,0,0,8" />
+           FontFamily="Arial" Text="Sub Amount " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
                 <TextBlock HorizontalAlignment="Left" Grid.Column="0" Grid.Row="11"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="GST Amount " TextWrapping="Wrap" VerticalAlignment="Center" Margin="120 0" />
+           FontFamily="Arial" Text="GST Amount " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
                 <TextBlock HorizontalAlignment="Left"  Grid.Column="0" Grid.Row="12"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Final Amount " TextWrapping="Wrap" VerticalAlignment="Center" Margin="120 0"/>
+           FontFamily="Arial" Text="Final Amount " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
 
 
-                <TextBox x:Name="customerName" HorizontalAlignment="Left" Height="auto" Grid.Column="1" Grid.Row="1" PlaceholderText="Required" TextAlignment="Center" FontSize="15" VerticalAlignment="Top" Width="427" />
-                <TextBox x:Name="vechicleCost" HorizontalAlignment="Left" Height="auto" Grid.Column="1" Grid.Row="3"  PlaceholderText="Required" TextAlignment="Center" FontSize="15" VerticalAlignment="Top" Width="427"  />
-                <TextBox x:Name="handphoneNumber" HorizontalAlignment="Left"  Height="auto"  Grid.Column="1" Grid.Row="2"  PlaceholderText="Required" TextAlignment="Center" FontSize="15" TextWrapping="Wrap" VerticalAlignment="Top" Width="427"  />
-                <TextBox x:Name="tradein" HorizontalAlignment="Left" Height="auto" Grid.Column="1" Grid.Row="4"  PlaceholderText="Optional" TextAlignment="Center" FontSize="15" TextWrapping="Wrap" VerticalAlignment="Top" Width="427" />
-                <ComboBox x:Name="warranty" Grid.Column="1" Grid.Row="5" Height="auto" Width="427" FontSize="15">
+                <TextBox x:Name="customerName" HorizontalAlignment="Left" Height="auto" Grid.Column="2" Grid.Row="1" PlaceholderText="Required" TextAlignment="Center" FontSize="15" VerticalAlignment="Top" Width="427" />
+                <TextBox x:Name="vechicleCost" HorizontalAlignment="Left" Height="auto" Grid.Column="2" Grid.Row="3"  PlaceholderText="Required" TextAlignment="Center" FontSize="15" VerticalAlignment="Top" Width="427"  />
+                <TextBox x:Name="handphoneNumber" HorizontalAlignment="Left"  Height="auto"  Grid.Column="2" Grid.Row="2"  PlaceholderText="Required" TextAlignment="Center" FontSize="15" TextWrapping="Wrap" VerticalAlignment="Top" Width="427"  />
+                <TextBox x:Name="tradein" HorizontalAlignment="Left" Height="auto" Grid.Column="2" Grid.Row="4"  PlaceholderText="Optional" TextAlignment="Center" FontSize="15" TextWrapping="Wrap" VerticalAlignment="Top" Width="427" />
+                <ComboBox x:Name="warranty" Grid.Column="2" Grid.Row="5" Height="auto" Width="427" FontSize="15">
                     <ComboBoxItem IsSelected="True">1 year warranty has no charge</ComboBoxItem>
                     <ComboBoxItem>2 years at 5% of the vechicle cost</ComboBoxItem>
                     <ComboBoxItem>3 years at 10% of the vechicle cost</ComboBoxItem>
                     <ComboBoxItem>5 years at 20% of the vechicle cost</ComboBoxItem>
                 </ComboBox>
-                <StackPanel Grid.Column="1" Grid.Row="6" Spacing="5" Orientation="Horizontal">
-                    <CheckBox x:Name="window" Content="Window Tinting ($150)" FontSize="8"  VerticalAlignment="Center"/>
+                <StackPanel Grid.Column="2" Grid.Row="6" Spacing="5" Orientation="Horizontal">
+                    <CheckBox x:Name="window" Content="Window Tinting ($150)" FontSize="8" VerticalAlignment="Center"/>
                     <CheckBox x:Name="duco" Content="Duco Protection ($180)" FontSize="8" VerticalAlignment="Center"/>
                     <CheckBox x:Name="floor" Content="Floor Mats ($320)" FontSize="8" VerticalAlignment="Center"/>
                     <CheckBox x:Name="sound" Content="Deluxe Sound System ($350)" FontSize="8" VerticalAlignment="Center"/>
                 </StackPanel>
-                <Grid Grid.Column="1" Grid.Row="7">
+                <Grid Grid.Column="2" Grid.Row="7">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="20*"/>
                         <ColumnDefinition Width="60*"/>
@@ -157,12 +159,12 @@
                     <RadioButton x:Name="AgeUnder" IsChecked="True" Visibility="Collapsed" FontSize="9" Grid.Column="1" Grid.Row="0" Content="drivers under age 25 may purchase 1 year insurance for 20% of vehicle price" Height="30" />
                     <RadioButton x:Name="AgeAbove" Visibility="Collapsed" FontSize="9" Grid.Column="1" Grid.Row="1" Content="older drivers (&gt;=25) may purchase for 10% of vehicle price" Height="30" />
                 </Grid>
-                <DatePicker Grid.Column="1" Grid.Row="8"></DatePicker>
-                <TimePicker Grid.Column="1" Grid.Row="9"/>
-                <TextBlock x:Name="finalAmountTotal" HorizontalAlignment="Left" Height="34" Grid.Column="1" Grid.Row="12" FontWeight="Bold" TextDecorations="Underline" Foreground="Red" Text="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Width="427" VerticalAlignment="Top"/>
-                <TextBlock x:Name="gstAmountTotal" HorizontalAlignment="Left" Height="34" Grid.Column="1" Grid.Row="11"  Foreground="Black" Text="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Width="427" VerticalAlignment="Top"/>
-                <TextBlock x:Name="subAmountTotal" HorizontalAlignment="Left" Height="34" Grid.Column="1" Grid.Row="10"  Foreground="Black" Text="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Width="427" VerticalAlignment="Top" />
-                <Grid Grid.Row="13" Grid.Column="1">
+                <DatePicker Grid.Column="2" Grid.Row="8"></DatePicker>
+                <TimePicker Grid.Column="2" Grid.Row="9"/>
+                <TextBlock x:Name="finalAmountTotal" HorizontalAlignment="Left" Height="34" Grid.Column="2" Grid.Row="12" FontWeight="Bold" TextDecorations="Underline" Foreground="Red" Text="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Width="427" VerticalAlignment="Top"/>
+                <TextBlock x:Name="gstAmountTotal" HorizontalAlignment="Left" Height="34" Grid.Column="2" Grid.Row="11"  Foreground="Black" Text="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Width="427" VerticalAlignment="Top"/>
+                <TextBlock x:Name="subAmountTotal" HorizontalAlignment="Left" Height="34" Grid.Column="2" Grid.Row="10"  Foreground="Black" Text="0" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" Width="427" VerticalAlignment="Top" />
+                <Grid Grid.Row="13" Grid.Column="2">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="45" />
                         <RowDefinition Height="45" />
