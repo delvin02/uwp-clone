@@ -10255,18 +10255,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DelvinWaai(Interfy)\\.nuget\\packages\\": {},
+    "C:\\Users\\001174793\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp-clone\\App1\\App1.csproj",
+      "projectUniqueName": "C:\\Users\\001174793\\Downloads\\uwp-clone\\App1\\App1.csproj",
       "projectName": "App1",
-      "projectPath": "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp-clone\\App1\\App1.csproj",
-      "packagesPath": "C:\\Users\\DelvinWaai(Interfy)\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DelvinWaai(Interfy)\\Downloads\\uwp-clone\\App1\\obj\\",
+      "projectPath": "C:\\Users\\001174793\\Downloads\\uwp-clone\\App1\\App1.csproj",
+      "packagesPath": "C:\\Users\\001174793\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\001174793\\Downloads\\uwp-clone\\App1\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -10274,7 +10274,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\DelvinWaai(Interfy)\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\001174793\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>INTERFY-LT2003</Machine>
-    <WindowsUser>DelvinWaai%28Interfy%29</WindowsUser>
+    <Machine>ADLA117-011726</Machine>
+    <WindowsUser>001174793</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>2774bbfc-f0c4-446a-8dda-bcdf66c3d442</PackageIdentityName>
     <PackageIdentityPublisher>CN=001174793</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\001174793\Downloads\uwp-clone\App1\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>9E0F37A96E495D7C6CD1C660CB080E2B7F832DE18C32B7281F5EAFD1B5D67255</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\001174793\Downloads\uwp-clone\App1\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>27452D49D36F467140C97875F84A7D37278522FD6C38F6ED84FC38AA670DB590</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>2774bbfc-f0c4-446a-8dda-bcdf66c3d442_1.0.0.0_x64__fne2nyyrd5my6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>2774bbfc-f0c4-446a-8dda-bcdf66c3d442_fne2nyyrd5my6!App</RegisteredUserModeAppID>
     <RegisteredPackageID>2774bbfc-f0c4-446a-8dda-bcdf66c3d442</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\001174793\Downloads\uwp-clone\App1\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-29T05:55:12.544</Modified>
+      <Modified>2022-11-30T06:16:49.320</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\bin\x64\Debug\App1.exe">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\bin\x64\Debug\App1.exe">
       <PackagePath>entrypoint\App1.exe</PackagePath>
-      <Modified>2022-11-29T05:55:11.514</Modified>
+      <Modified>2022-11-30T06:16:47.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,73 +44,73 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2020-12-01T18:22:00.000</Modified>
+      <Modified>2020-12-01T19:22:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\Assets\car.png">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\Assets\car.png">
       <PackagePath>Assets\car.png</PackagePath>
-      <Modified>2022-11-08T03:58:29.589</Modified>
+      <Modified>2022-11-30T02:48:18.161</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-11-08T03:58:29.572</Modified>
+      <Modified>2022-11-30T02:48:18.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-08T03:58:29.572</Modified>
+      <Modified>2022-11-30T02:48:18.136</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-08T03:58:29.573</Modified>
+      <Modified>2022-11-30T02:48:18.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-08T03:58:29.573</Modified>
+      <Modified>2022-11-30T02:48:18.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-08T03:58:29.574</Modified>
+      <Modified>2022-11-30T02:48:18.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-08T03:58:29.574</Modified>
+      <Modified>2022-11-30T02:48:18.140</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-11-08T03:58:29.575</Modified>
+      <Modified>2022-11-30T02:48:18.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-11-08T03:58:29.595</Modified>
+      <Modified>2022-11-30T02:48:18.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\bin\x64\Debug\App1.xr.xml">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\bin\x64\Debug\App1.xr.xml">
       <PackagePath>App1.xr.xml</PackagePath>
-      <Modified>2022-11-29T05:55:11.351</Modified>
+      <Modified>2022-11-30T06:02:05.531</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-11-29T05:55:11.404</Modified>
+      <Modified>2022-11-30T06:16:46.968</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-11-29T05:55:11.404</Modified>
+      <Modified>2022-11-30T06:16:46.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2020-12-01T16:22:06.000</Modified>
+      <Modified>2020-12-01T17:22:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-11-29T05:17:39.187</Modified>
+      <Modified>2022-11-30T04:04:45.806</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\DelvinWaai%28Interfy%29\Downloads\uwp-clone\App1\bin\x64\Debug\Core\App1.exe">
+    <AppxPackagedFile Include="C:\Users\001174793\Downloads\uwp-clone\App1\bin\x64\Debug\Core\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2022-11-29T05:55:12.526</Modified>
+      <Modified>2022-11-30T06:16:49.306</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

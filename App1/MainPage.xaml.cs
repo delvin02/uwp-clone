@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Collections.Generic;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -32,6 +33,25 @@ namespace App1
         // Weei Waai Khor
         // 25/10/2022
         //CarSalesV1
+
+        // Loaded
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            var customer = new Dictionary<string, string>()
+            {
+                {"John", "478 643 011"},
+                {"Ann", "478 643 012"},
+                {"Jordan", "478 643 013"},
+                {"Arriel", "478 643 014"},
+                {"Andrew", "478 643 015"},
+                {"Julie", "478 643 016"},
+                {"Barrel", "478 643 017"},
+                {"Carol", "478 643 018"},
+                {"Dan", "478 643 019"},
+                {"Eren", "478 643 020" },
+            };
+        }
         private async void calculate(object sender, RoutedEventArgs e)
         {
             const double GST_RATE = 0.1;
@@ -429,6 +449,11 @@ namespace App1
             customerName.IsEnabled = false;
             handphoneNumber.IsEnabled = false;
             vechicleCost.Focus(FocusState.Programmatic);
+        }
+
+        private void Display_Click(object sender, RoutedEventArgs e)
+        {
+            var variables = customerName;
         }
     }
 }

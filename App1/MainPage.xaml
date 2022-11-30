@@ -5,7 +5,7 @@
     xmlns:local="using:App1"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
+    mc:Ignorable="d" Loaded="Page_Loaded"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="LightGray" HorizontalAlignment="Stretch" >
@@ -23,6 +23,7 @@
                 <ColumnDefinition Width="9*" />
                 <ColumnDefinition Width="3*" />
                 <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="2*" />
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
@@ -52,82 +53,82 @@
 
 
 
-                <TextBlock HorizontalAlignment="Left" Grid.Column="0" Grid.Row="1" 
+                <TextBlock HorizontalAlignment="Center" Grid.Column="0" Grid.Row="1" 
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="Left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Customer Name" TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
-                <TextBlock HorizontalAlignment="Left" Grid.Column="0" Grid.Row="2"
+           FontFamily="Arial" Text="Customer Name" TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Center" Grid.Column="0" Grid.Row="2"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="Left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Customer Phone" TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
-                <TextBlock HorizontalAlignment="Left" Grid.Column="0" Grid.Row="3"
+           FontFamily="Arial" Text="Customer Phone" TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Center" Grid.Column="0" Grid.Row="3"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Vehicle Price" TextWrapping="Wrap" Width="200" VerticalAlignment="Center"  RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.ColumnSpan="2" Margin="107,0,0,0">
+           FontFamily="Arial" Text="Vehicle Price" TextWrapping="Wrap" Width="200" VerticalAlignment="Center"  RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.ColumnSpan="2">
                     <TextBlock.RenderTransform>
                         <CompositeTransform Rotation="0.258"/>
                     </TextBlock.RenderTransform>
                 </TextBlock>
-                <TextBlock HorizontalAlignment="Left"  Grid.Column="0" Grid.Row="5"
+                <TextBlock HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="5"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Vehicle Warranty " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
-                <TextBlock HorizontalAlignment="Left"  Grid.Column="0" Grid.Row="6"
+           FontFamily="Arial" Text="Vehicle Warranty " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="6"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Optional Extras " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
-                <TextBlock HorizontalAlignment="Left"  Grid.Column="0" Grid.Row="7"
+           FontFamily="Arial" Text="Optional Extras " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="7"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Insurance Policy " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
-                <TextBlock HorizontalAlignment="Left"  Grid.Column="0" Grid.Row="8"
+           FontFamily="Arial" Text="Insurance Policy " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="8"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="Left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Collection Date " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
-                <TextBlock HorizontalAlignment="Left"  Grid.Column="0" Grid.Row="9"
+           FontFamily="Arial" Text="Collection Date " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="9"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="Left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Pickup Time " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
-                <TextBlock HorizontalAlignment="Left" Grid.Column="0" Grid.Row="4"
+           FontFamily="Arial" Text="Pickup Time " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Center" Grid.Column="0" Grid.Row="4"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Less Trade In " TextWrapping="Wrap" Width="200" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="107,0,0,0" />
-                <TextBlock HorizontalAlignment="Left" Grid.Column="0" Grid.Row="10"
+           FontFamily="Arial" Text="Less Trade In " TextWrapping="Wrap" Width="200" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Center" Grid.Column="0" Grid.Row="10"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Sub Amount " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
-                <TextBlock HorizontalAlignment="Left" Grid.Column="0" Grid.Row="11"
+           FontFamily="Arial" Text="Sub Amount " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Center" Grid.Column="0" Grid.Row="11"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="GST Amount " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
-                <TextBlock HorizontalAlignment="Left"  Grid.Column="0" Grid.Row="12"
+           FontFamily="Arial" Text="GST Amount " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2"/>
+                <TextBlock HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="12"
                    Foreground="Black"
                    FontSize="20"
                    TextAlignment="left"
                    FontWeight="light" 
-           FontFamily="Arial" Text="Final Amount " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2" Margin="107,0,0,0"/>
+           FontFamily="Arial" Text="Final Amount " TextWrapping="Wrap" VerticalAlignment="Center" Width="200" Grid.ColumnSpan="2"/>
 
 
                 <TextBox x:Name="customerName" HorizontalAlignment="Left" Height="auto" Grid.Column="2" Grid.Row="1" PlaceholderText="Required" TextAlignment="Center" FontSize="15" VerticalAlignment="Top" Width="427" />
@@ -197,7 +198,7 @@
                             <RowDefinition Height="2*"/>
                             <RowDefinition Height="2*"/>
                         </Grid.RowDefinitions>
-                        <TextBlock Grid.Row="0" Text="Summary Data display here" FontSize="20px" TextAlignment="Center"/>
+                        <TextBlock Grid.Row="0" Text="Summary Data display here" FontSize="18px" TextAlignment="Center"/>
                         <TextBlock x:Name="customerNameBlock" Grid.Row="1" Text="Customer Name" FontSize="15px" TextAlignment="Center"/>
                         <TextBlock x:Name="phoneNumberBlock" Grid.Row="2" Text="Phone" FontSize="15px" TextAlignment="Center"/>
                         <TextBlock x:Name="vehicleCostBlock" Grid.Row="3" Text="Vehicle Cost" FontSize="15px" TextAlignment="Center"/>
@@ -210,7 +211,41 @@
                 </Border>
                 <TextBlock Text="Designed By: Weei Waai Khor 001174793" Grid.Row="2" TextAlignment="Center" TextWrapping="Wrap" FontSize="16"/>
             </Grid>
-
+            <Grid Grid.Row="1" Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Button Content="Display" Background="Blue" Foreground="White" Grid.Row="1" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0" Click="Display_Click"/>
+                <Button Content="Search Name" Background="Blue" Foreground="White" Grid.Row="2" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0"/>
+                <Button Content="Delete Name" Background="Blue" Foreground="White" Grid.Row="3" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0"/>
+                <Button Content="Display all" Background="Blue" Foreground="White" Grid.Row="4" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0"/>
+                <Button Content="Binary Search (Binary Make)" Background="Blue" Foreground="White" Grid.Row="5" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0"/>
+                <Button Content="Insert Vehicle (Vehicle Make)" Background="Blue" Foreground="White" Grid.Row="6" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0"/>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90"/>
+                    <RowDefinition Height="0.4*"/>
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="1" Text="Result" FontSize="15px" TextAlignment="Center"/>
+                <Grid Grid.Row="2" Grid.Column="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="9*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="a" FontSize="15px" TextAlignment="Center"/>
+                    <TextBox  Height="auto" Grid.Row="1" HorizontalAlignment="Stretch" PlaceholderText="Optional" TextAlignment="Center" FontSize="15" VerticalAlignment="Top" />
+                </Grid>
+            </Grid>
         </Grid>
     </Grid>
 </Page>
