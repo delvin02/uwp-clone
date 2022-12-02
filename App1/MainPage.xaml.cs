@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Collections;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -35,22 +37,44 @@ namespace App1
         //CarSalesV1
 
         // Loaded
-
-        private void Page_Loaded(object sender, RoutedEventArgs e)
+        private ListDictionary customer = null;
+        public ArrayList vehicleMakes = null;
+        private ListDictionary loadDictionaryCustomerData()
         {
-            var customer = new Dictionary<string, string>()
-            {
-                {"John", "478 643 011"},
-                {"Ann", "478 643 012"},
-                {"Jordan", "478 643 013"},
-                {"Arriel", "478 643 014"},
-                {"Andrew", "478 643 015"},
-                {"Julie", "478 643 016"},
-                {"Barrel", "478 643 017"},
-                {"Carol", "478 643 018"},
-                {"Dan", "478 643 019"},
-                {"Eren", "478 643 020" },
-            };
+            ListDictionary customerList = new ListDictionary();
+
+            customerList.Add("John", "478 643 011");
+            customerList.Add("Ann", "478 643 012");
+            customerList.Add("Jordan", "478 643 013");
+            customerList.Add("Arriel", "478 643 014");
+            customerList.Add("Andrew", "478 643 015");
+            customerList.Add("Julie", "478 643 016");
+            customerList.Add("Barrel", "478 643 017");
+            customerList.Add("Carol", "478 643 018");
+            customerList.Add("Dan", "478 643 019");
+            customerList.Add("Eren", "478 643 020");
+            return customerList;
+        } 
+        
+        private ArrayList loadVehicleMakes()
+        {
+            ArrayList brands = new ArrayList();
+            brands.Add("Toyota");
+            brands.Add("Holden");
+            brands.Add("Mitsubushi");
+            brands.Add("Ford");
+            brands.Add("BMW");
+            brands.Add("Mazda");
+            brands.Add("Volkswagen");
+            brands.Add("Mini");
+            return brands;
+        }
+        protected void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            // Get data in dictionary form (name => number)
+            customer = loadDictionaryCustomerData();
+            vehicleMakes = loadVehicleMakes();
+
         }
         private async void calculate(object sender, RoutedEventArgs e)
         {
@@ -73,7 +97,7 @@ namespace App1
             }
             // Assign customerName into name
             name = customerName.Text;
-            
+
             // Check name input contains digit
             isName = name.All(char.IsDigit);
 
@@ -134,11 +158,11 @@ namespace App1
                 vechicleCost.SelectAll();
                 return;
             }
-  
+
 
             // Check TradeCost empty of filled boolean
             bool checkTradeCost = string.IsNullOrEmpty(tradein.Text);
-            
+
             if (checkTradeCost)
             {
                 // Assign tradeCost variable to 0 at the backend
@@ -187,7 +211,7 @@ namespace App1
                 // Display error
                 var error_name = new MessageDialog("Trade Cost must be greater than or equal to 0.");
                 await error_name.ShowAsync();
-                
+
                 // Focus on Input field
                 tradein.Focus(FocusState.Programmatic);
                 tradein.SelectAll();
@@ -199,7 +223,7 @@ namespace App1
                 // Display Error
                 var error_name = new MessageDialog("Vehicle Price must be greater than Trade Cost");
                 await error_name.ShowAsync();
-                
+
                 // Focus on input field
                 vechicleCost.Focus(FocusState.Programmatic);
                 vechicleCost.SelectAll();
@@ -217,7 +241,7 @@ namespace App1
 
             // Calculate Sub amount
             subAmount = carCost + warrantyAmount + extraCost + insuranceAmount - tradeCost;
-            subAmountTotal.Text = "$ " +  subAmount.ToString();
+            subAmountTotal.Text = "$ " + subAmount.ToString();
 
             // Total GST
             double gst;
@@ -227,7 +251,7 @@ namespace App1
             // Final Amount
             double final;
             final = subAmount + gst;
-            
+
             // Display final result
             finalAmountTotal.Text = "$ " + final.ToString();
 
@@ -244,13 +268,13 @@ namespace App1
 
 
         }
-        
+
         /// <summary>
         /// Calculate Vehicle Warranty
         /// </summary>
         /// <param name="vehiclePrice"></param>
         /// <returns>warraty rate * vehiclePrice</returns>
-        
+
         // Warranty 
 
         private double calcVehicleWarranty(double vehiclePrice)
@@ -277,7 +301,7 @@ namespace App1
                     warrantyRate = WARRANTY3;
                     break;
                 default:
-                    return 0; 
+                    return 0;
             }
             return vehiclePrice * warrantyRate;
         }
@@ -323,7 +347,7 @@ namespace App1
         private void InsuranceSwitch_Toggled(object sender, RoutedEventArgs e)
         {
             ToggleSwitch toggleSwitch = sender as ToggleSwitch;
-            
+
 
             // Toggle Radio Button
             if (toggleSwitch != null)
@@ -350,7 +374,7 @@ namespace App1
         /// <param name="vehiclePrice"></param>
         /// <param name="optionalExtras"></param>
         /// <returns> (vehicleprice * rate) + optionalExtras</returns>
-        
+
         // Calculate Insurance
         private double calcAccidentInsurance(double vehiclePrice, double optionalExtras)
         {
@@ -431,7 +455,7 @@ namespace App1
             phone = string.IsNullOrEmpty(handphoneNumber.Text);
             if (name)
             {
-                var error_name = new MessageDialog("Name cannot be blank." );
+                var error_name = new MessageDialog("Name cannot be blank.");
                 await error_name.ShowAsync();
                 customerName.Focus(FocusState.Programmatic);
                 customerName.SelectAll();
@@ -451,9 +475,212 @@ namespace App1
             vechicleCost.Focus(FocusState.Programmatic);
         }
 
-        private void Display_Click(object sender, RoutedEventArgs e)
+        private void DisplayNames_Click(object sender, RoutedEventArgs e)
         {
-            var variables = customerName;
+            ResultTextBlock.Text = "";
+            foreach (var name in customer.Keys)
+            {
+                ResultTextBlock.Text = ResultTextBlock.Text + name + ": " + customer[name] + "\n";
+            }
+
+        }
+
+        private async void Search_Click(object sender, RoutedEventArgs e)
+        {
+            // get input from user
+            bool isEmptyTextBox;
+            isEmptyTextBox = string.IsNullOrEmpty(UserInputTextBox.Text);
+
+            if (isEmptyTextBox)
+            {
+                var blankTextError = new MessageDialog("Text box must be filled.");
+                await blankTextError.ShowAsync();
+                UserInputTextBox.Focus(FocusState.Programmatic);
+                UserInputTextBox.SelectAll();
+                return;
+            }
+
+            DisplayNames_Click(sender, e);
+
+            var customerName = UserInputTextBox.Text;
+
+            // Keep foundUser false for the moment
+            bool foundUser = false;
+
+            foreach(DictionaryEntry item in customer)
+            {
+                if((string)item.Key == customerName)
+                {
+                    ResultTextBlock.Text = (string)item.Value;
+                    // User found
+                    foundUser = true;
+                    break;
+                }
+            }
+
+            // Remain not found
+            if (foundUser == false)
+            {
+                var notFound = new MessageDialog("Customer name cannot be found");
+                await notFound.ShowAsync();
+            }
+        }
+
+        private async void Delete_Click(object sender, RoutedEventArgs e)
+        {
+            // Check TextBox is empty
+            bool isEmptyTextBox;
+            isEmptyTextBox = string.IsNullOrEmpty(UserInputTextBox.Text);
+
+            if (isEmptyTextBox)
+            {
+                // Blank Text Error
+                var blankTextError = new MessageDialog("Text box must be filled.");
+                await blankTextError.ShowAsync();
+                UserInputTextBox.Focus(FocusState.Programmatic);
+                UserInputTextBox.SelectAll();
+                return;
+            }
+            
+            // Get input from textbox
+            var customerName = UserInputTextBox.Text;
+
+            foreach (DictionaryEntry item in customer)
+            {
+                // If key item is equal to inputted name
+                if ((string)item.Key == customerName)
+                {
+                    // try to remove from array
+                    try
+                    {
+                        customer.Remove(customerName);
+                        var deleteSuccess = new MessageDialog(customerName + " HP num:" + item.Value + " deleted successfully. /n" + "Current Array Length:" + customer.Count);
+                        await deleteSuccess.ShowAsync();
+                        DisplayNames_Click(sender, e);
+                        return;
+                    }
+                    // Deal with exception
+                    catch (Exception exception)
+                    {
+                        var deleteError = new MessageDialog("Error" + exception.Message);
+                        await deleteError.ShowAsync();
+                        return;
+                    }
+                }
+            }
+            // Delete failed
+            DisplayNames_Click(sender, e);
+            var deleteFailed = new MessageDialog(customerName + " Not found.");
+            await deleteFailed.ShowAsync();
+        }
+
+        protected void DisplayAllMakes_Click(object sender, RoutedEventArgs e)
+        {
+            String[] brands = (String[])vehicleMakes.ToArray(typeof(string));
+
+            // Sort Array
+            Array.Sort(brands);
+
+            // Reset Text block
+            ResultTextBlock.Text = "";
+
+            // Loop through items in brands
+            foreach (var brand in brands)
+            {
+                ResultTextBlock.Text = ResultTextBlock.Text + brand + "\n";
+            }
+
+        }
+
+        protected async void BinarySearchVehicle_Click(object sender, RoutedEventArgs e)
+        {
+            // Check TextBox is empty
+            bool isEmptyTextBox;
+            isEmptyTextBox = string.IsNullOrEmpty(UserInputTextBox.Text);
+
+            if (isEmptyTextBox)
+            {
+                // Blank text error
+                var blankTextError = new MessageDialog("Text box must be filled.");
+                await blankTextError.ShowAsync();
+                UserInputTextBox.Focus(FocusState.Programmatic);
+                UserInputTextBox.SelectAll();
+                return;
+            }
+
+            // Get input from textbox
+            var vehicleBrand = UserInputTextBox.Text.ToUpper();
+      
+            String[] brands = (String[])vehicleMakes.ToArray(typeof(string));
+            Array.Sort(brands);
+
+            // Minimum, Maximum number for binary search (divide & conquer)
+            int minNum = 0;
+            int maxNum = brands.Length - 1;
+
+            // Do-While Loop
+            do
+            {
+                int mid = (minNum + maxNum) / 2;
+
+                // If vehicle name is found
+                if (vehicleBrand == brands[mid].ToUpper())
+                {
+                    // Successful Message
+                    var foundMessage = new MessageDialog(brands[mid] + " was found, indexed at " + mid);
+                    await foundMessage.ShowAsync();
+
+                    // Exit Program
+                    return;
+                }
+                // Check if the item is bigger than mid or lesser than mid
+                if (vehicleBrand.CompareTo(brands[mid].ToUpper()) > 0)
+                    // if bigger than mid, change minimum number for then next divide & conquer method
+                    minNum = mid + 1;
+                else
+                    // if smaller than mid,  change maximum number for the next divide & conquer method
+                    maxNum = mid - 1;
+                
+            } while (minNum <= maxNum);
+            // Error Meesage
+            var notFound = new MessageDialog(vehicleBrand + " cannot be found.");
+            await notFound.ShowAsync();
+        }
+        protected async void InsertVehicle_Click(object sender, RoutedEventArgs e)
+        {
+
+            // Check TextBox is empty
+            bool isEmptyTextBox;
+            isEmptyTextBox = string.IsNullOrEmpty(UserInputTextBox.Text);
+
+            if (isEmptyTextBox)
+            {
+                // Blank text error
+                var blankTextError = new MessageDialog("Text box must be filled.");
+                await blankTextError.ShowAsync();
+                UserInputTextBox.Focus(FocusState.Programmatic);
+                UserInputTextBox.SelectAll();
+                return;
+            }
+
+            // Get input from textbox
+            var vehicleBrand = UserInputTextBox.Text;
+
+            String[] brands = (String[])vehicleMakes.ToArray(typeof(string));
+            
+            // Compare while ignoring case
+            if (brands.Contains(vehicleBrand, StringComparer.OrdinalIgnoreCase))
+            {
+                // Already Exist error
+                var existError = new MessageDialog(vehicleBrand + " already exists.");
+                await existError.ShowAsync();
+            }
+            else
+            {
+                vehicleMakes.Add(vehicleBrand);
+            }
+            DisplayAllMakes_Click(sender, e);
         }
     }
+    
 }

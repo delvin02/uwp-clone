@@ -222,12 +222,12 @@
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
-                <Button Content="Display" Background="Blue" Foreground="White" Grid.Row="1" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0" Click="Display_Click"/>
-                <Button Content="Search Name" Background="Blue" Foreground="White" Grid.Row="2" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0"/>
-                <Button Content="Delete Name" Background="Blue" Foreground="White" Grid.Row="3" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0"/>
-                <Button Content="Display all" Background="Blue" Foreground="White" Grid.Row="4" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0"/>
-                <Button Content="Binary Search (Binary Make)" Background="Blue" Foreground="White" Grid.Row="5" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0"/>
-                <Button Content="Insert Vehicle (Vehicle Make)" Background="Blue" Foreground="White" Grid.Row="6" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0"/>
+                <Button Content="Display Names" Background="Blue" Foreground="White" Grid.Row="1" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0" Click="DisplayNames_Click"/>
+                <Button Content="Search Name" Background="Blue" Foreground="White" Grid.Row="2" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0" Click="Search_Click"/>
+                <Button Content="Delete Name" Background="Blue" Foreground="White" Grid.Row="3" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0" Click="Delete_Click"/>
+                <Button Content="Display all Makes" Background="Blue" Foreground="White" Grid.Row="4" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0" Click="DisplayAllMakes_Click"/>
+                <Button Content="Binary Search (Binary Make)" Background="Blue" Foreground="White" Grid.Row="5" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0" Click="BinarySearchVehicle_Click"/>
+                <Button Content="Insert Vehicle (Vehicle Make)" Background="Blue" Foreground="White" Grid.Row="6" FontWeight="Bold" CornerRadius="5" VerticalAlignment="Center" Margin="10 0" Click="InsertVehicle_Click"/>
             </Grid>
             <Grid Grid.Row="1" Grid.Column="3">
                 <Grid.RowDefinitions>
@@ -236,14 +236,14 @@
                     <RowDefinition Height="5*"/>
                     <RowDefinition Height="2*"/>
                 </Grid.RowDefinitions>
-                <TextBlock Grid.Row="1" Text="Result" FontSize="15px" TextAlignment="Center"/>
+                <TextBlock Grid.Row="1" Text="Result" FontSize="30px" TextAlignment="Left"/>
                 <Grid Grid.Row="2" Grid.Column="3">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="9*"/>
                         <RowDefinition Height="1*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Text="a" FontSize="15px" TextAlignment="Center"/>
-                    <TextBox  Height="auto" Grid.Row="1" HorizontalAlignment="Stretch" PlaceholderText="Optional" TextAlignment="Center" FontSize="15" VerticalAlignment="Top" />
+                    <TextBlock x:Name="ResultTextBlock" Grid.Row="0" Text="" FontSize="15px" TextAlignment="Left"/>
+                    <TextBox x:Name="UserInputTextBox"  Height="auto" Grid.Row="1" HorizontalAlignment="Stretch" PlaceholderText="Optional" TextAlignment="Center" FontSize="15" VerticalAlignment="Top" />
                 </Grid>
             </Grid>
         </Grid>
