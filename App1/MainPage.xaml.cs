@@ -17,6 +17,8 @@ using Windows.UI.Xaml.Navigation;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Collections;
+using Windows.UI.Xaml.Controls.TextBox;
+
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -597,7 +599,7 @@ namespace App1
             for (int i = 0; i < customerNameList.Count; i++)
             {
                 //If key item is equal to inputted name
-                if ((string)customerNameList[i] == customerNameInput)
+                if ((string)customerNameList[i].ToString().ToLower() == customerNameInput.ToString().ToLower())
                 {
                     //try to remove from array
                     try
@@ -611,7 +613,7 @@ namespace App1
                         customerName.Text = "";
                         handphoneNumber.Text = "";
 
-                        var deleteSuccess = new MessageDialog(customerName + " HP num:" + customerPhoneList[i] + " deleted successfully." + "Current Array Length:" + customerNameList.Count);
+                        var deleteSuccess = new MessageDialog(customerName + " HP num:" + customerPhoneList[i] + " deleted successfully. " + "Current Array Length:" + customerNameList.Count);
                         await deleteSuccess.ShowAsync();
                         displayNamesButton_Click(sender, e);
                         return;
@@ -630,6 +632,8 @@ namespace App1
             handphoneNumber.Text = "";
             var deleteFailed = new MessageDialog(customerName + " Not found.");
             await deleteFailed.ShowAsync();
+            customerName.Focus(FocusState.Programmatic);
+            customerName.SelectAll();
         }
 
         protected void DisplayAllMakesButton_Click(object sender, RoutedEventArgs e)

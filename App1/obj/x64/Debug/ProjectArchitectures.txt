@@ -1,1 +1,1 @@
-C:\Users\001174793\Downloads\uwp-clone\App1\App1.csproj;x64
+C:\Users\DelvinWaai(Interfy)\Downloads\uwp-clone\App1\App1.csproj;x64
