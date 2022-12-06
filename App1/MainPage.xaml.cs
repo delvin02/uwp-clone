@@ -626,7 +626,8 @@ namespace App1
                 }
             }
             //Delete failed
-            //DisplayNames_Click(sender, e);
+            displayNamesButton_Click(sender, e);
+            handphoneNumber.Text = "";
             var deleteFailed = new MessageDialog(customerName + " Not found.");
             await deleteFailed.ShowAsync();
         }
